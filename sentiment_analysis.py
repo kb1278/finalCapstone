@@ -8,14 +8,14 @@ nlp.components
 
 import pandas as pd
 
-amazon_reviews=pd.read_csv(r"C:\Users\bhamr\Downloads\capstone amazon\Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv")
+amazon_reviews=pd.read_csv("Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv")
 
 amazon_reviews.head()
 
-reviews_data=amazon_reviews["reviews.text"]    #choosing reviews.text column from dataframe
+reviews_data=amazon_reviews["reviews.text"]    # Choosing reviews.text column from dataframe.
 print(reviews_data)
 
-clean_data=amazon_reviews.dropna(subset=["reviews.text"])   #using dropna function to remove missing values
+clean_data=amazon_reviews.dropna(subset=["reviews.text"])   # Using dropna function to remove missing values.
 print(clean_data)
 
 from nltk.corpus import stopwords
@@ -27,9 +27,7 @@ print(cl1)
 
 cl1.astype(str)
 
-
 input=cl1
-
 
 
 def ratings(input,index):
@@ -39,23 +37,22 @@ def ratings(input,index):
     print(result)
     
     doc=nlp(result)
-    p=doc._.polarity   #finding the polarity
-    s=doc._.subjectivity   #finding subjectivity
+    p=doc._.polarity   
+    s=doc._.subjectivity   
     return (p,s)
 
 
-
-t=ratings(input,8)      #change index to select different review
+t=ratings(input,11)      # Change index to select different review.
 print(f"polarity and subjectivity: {t}")
 
 
 nlp = spacy.load('en_core_web_md')
-my_choice1=nlp(amazon_reviews['reviews.text'][1])   #choosing a review to compare
-my_choice2=nlp(amazon_reviews['reviews.text'][2])   #choosing a review to compare
-p=my_choice1.similarity(my_choice2)   #finding similarity
+my_choice1=nlp(amazon_reviews['reviews.text'][1])   # Choosing a review to compare.
+my_choice2=nlp(amazon_reviews['reviews.text'][2])   # Choosing a review to compare.
+p=my_choice1.similarity(my_choice2)  
+
 print(my_choice1)
 
 print(my_choice2)
-
 
 print(f"similarity: {p}")
