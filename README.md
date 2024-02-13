@@ -1,4 +1,5 @@
-# Final Capstone Project
+# Final Capstone 
+I pushed two projects, which I completed as part of my bootcamp onto GitHub.
 
 ## Finance Calculator - Python 
 
