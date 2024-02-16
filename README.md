@@ -11,9 +11,15 @@ In this capstone project I developed a Python program that performs sentiment an
 ### Usage
 Clone repository.
 
-This is a screenshot of the project in action.
+This is a copy of the project in action.
 
-![IMG_20240215_162530](https://github.com/kb1278/finalCapstone/assets/155357944/d20a5303-5e30-40c5-8670-4dfc0028ac88)
+polarity and subjectivity: (0.10000000000000003, 0.8999999999999999)
+This kindle is light and easy to use especially at the beach!!!
+Didnt know how much i'd use a kindle so went for the lower end. im happy with it, even if its a little dark
+
+similarity: 0.6571917683147515
+PS C:\Users\bhamr\Downloads\capstone amazon> 
+
 
 ### Installation
 1.[Download and install latest Python version](https://www.python.org/downloads/)
@@ -29,9 +35,15 @@ This capstone project was developed with the goal of providing the user with a f
 ### Usage
 Clone repository.
 
-This is a screenshot of the project in action.
+This is a copy of the project in action.
 
-![IMG_20240215_162914](https://github.com/kb1278/finalCapstone/assets/155357944/c90df264-b844-4ee1-99dd-a705c9681d85)
+how much are you depositing:20000
+enter interest rate:6
+how many years will the investment be:5
+
+choose simple or compound:simple
+total amount when simple interest is applied: 26000.0
+PS C:\Users\bhamr\Downloads\capstone amazon> 
 
 
 ### Installation
