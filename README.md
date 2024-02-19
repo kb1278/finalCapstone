@@ -11,7 +11,7 @@ In this capstone project I developed a Python program that performs sentiment an
 ### Usage
 Clone repository.
 
-This is a copy of the project in action.
+This is a screenshot of the project in action:
 
 polarity and subjectivity: (0.10000000000000003, 0.8999999999999999)
 This kindle is light and easy to use especially at the beach!!!
@@ -35,7 +35,7 @@ This capstone project was developed with the goal of providing the user with a f
 ### Usage
 Clone repository.
 
-This is a copy of the project in action.
+This is a screenshot of the project in action:
 
 how much are you depositing:20000
 enter interest rate:6
